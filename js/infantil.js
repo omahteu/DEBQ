@@ -1,5 +1,10 @@
 $(document).ready(function(){
-    fetch("https://omahteu.github.io/dados/infantil.json")
+    fetch("https://omahteu.github.io/dados/infantil.json", {
+        method: 'get',
+        headers: new Headers({
+            'test': 'test'
+        })
+    })
     .then(response => {
        return response.json();
     })
