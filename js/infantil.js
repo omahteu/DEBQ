@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    fetch("https://omahteu.github.io/dados/infantil.json", {
+    fetch("../dados/infantil.json", {
         method: 'get',
         headers: new Headers({
             'test': 'test'
