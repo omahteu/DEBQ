@@ -10,7 +10,10 @@ $(document).ready(function(){
        return response.json();
     })
     .then(function(myBlob) {
-        var objectURL = myBlob;
+        var stringified = JSON.stringify(myBlob);
+        var parsedObj = JSON.parse(stringified);
+    
+        var objectURL = parsedObj;
 
         var tabInfantil = document.getElementById('infantil')
         tabInfantil.innerHTML = ''
