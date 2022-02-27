@@ -1,9 +1,10 @@
 $(document).ready(function(){
     fetch("../dados/infantil.json", {
         method: 'get',
-        headers: new Headers({
-            'test': 'test'
-        })
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        }
     })
     .then(response => {
        return response.json();
