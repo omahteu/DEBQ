@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    fetch("../dados/infantil.json")
+    fetch("https://omahteu.github.io/dados/infantil.json")
     .then(response => {
        return response.json();
     })
