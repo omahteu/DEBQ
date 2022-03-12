@@ -1,33 +1,30 @@
 $(document).ready(function(){
-    fetch("../dados/adultos.json")
-    .then(response => {
-       return response.json();
-    })
-    .then(function(myBlob) {
-        var objectURL = myBlob;
 
-        var tabInfantil = document.getElementById('adultos')
-        tabInfantil.innerHTML = ''
-        
-        for(var i = 0; i < objectURL.length; i++){
-            //console.log(objectURL[i])
+    getProdutosAdultos()
 
-            Object.keys(objectURL[i]).forEach(function(item){
-                // console.log(item + " X " + objectURL[i][item]);
-                // console.log(objectURL[i][item][1]);
-                var nomes = item
-                var preco = objectURL[i][item][0]
-                var status = objectURL[i][item][1]
-
-
-                tabInfantil.innerHTML += '<tr>'+
-                                    '<td>' + nomes + '</td>'+
-                                    '<td>' + 'R$ ' + preco + '</td>'+
-                                    '<td>' + status + '</td>'+
-                                '</tr>'
-                
-               });
-
-        }
-    })
 })
+
+async function getProdutosAdultos(){
+
+    try {
+        
+        const response = await fetch("./dados/adultos.json")
+        const data = await response.text()
+        const dados = JSON.parse(data)
+
+        var tabAdultos = document.getElementById('adultos')
+        tabAdultos.innerHTML = ''
+
+        dados.forEach(elemento => {
+            
+            tabAdultos.innerHTML += '<tr>'+
+                                        '<td>' + elemento.nome + '</td>'+
+                                        '<td>' + 'R$ ' + elemento.preco + '</td>'+
+                                        '<td>' + elemento.status + '</td>'+
+                                    '</tr>'
+        });
+
+    } catch (error) {
+        console.error(error)
+    }
+}

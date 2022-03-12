@@ -233,5 +233,75 @@
         "nome": " JOVENS - OTRILHO DA FÉ - PROFESSOR",
         "preco": "16.00",
         "status": "Disponível"
+    },
+    {
+        "nome": " CARATER CRISTÃO",
+        "preco": "9.50",
+        "status": "Disponível"
+    },
+    {
+        "nome": " CURSO FORMAÇÃO EDUCADORES - MOD. I VOCAÇÃO",
+        "preco": "16.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " CURSO FORMAÇÃO EDUCADORES - MOD.II RELACIONAMENTO",
+        "preco": "16.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ESTAÇÃO AMARELA",
+        "preco": "10.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ESTAÇÃO AZUL",
+        "preco": "10.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ESTAÇÃO ROXA",
+        "preco": "12.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ESTAÇÃO ROXA 1° FASCÍCULO PENTATEUCO",
+        "preco": "12.00",
+        "status": "Indisponível"
+    },
+    {
+        "nome": " ESTAÇÃO ROXA 2° FASCÍCULO- LIVROS HISTÓRICOS",
+        "preco": "14.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ESTAÇÃO VERMELHA",
+        "preco": "10.00",
+        "status": "Indisponível"
+    },
+    {
+        "nome": " JOSUÉ",
+        "preco": "10.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ADOLESCENTE - O TRILHO DO CONHECIMENTO - ALUNO",
+        "preco": "17.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " ADOLESCENTE - O TRILHO DO CONHECIMENTO - PROFESSOR",
+        "preco": "16.00",
+        "status": "Disponível"
+    },
+    {
+        "nome": " GERAÇÃO FORTE",
+        "preco": "14.90",
+        "status": "Disponível"
+    },
+    {
+        "nome": " TEEN PARA CRISTO PREGANDO A PALAVRA - 13 A 17 ANOS",
+        "preco": "9.00",
+        "status": "Disponível"
     }
 ]

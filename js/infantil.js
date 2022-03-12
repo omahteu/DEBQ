@@ -1,11 +1,13 @@
 $(document).ready(function(){
 
-    getProdutos()
+    getProdutosInfantil()
+
 })
 
-async function getProdutos(){
+async function getProdutosInfantil(){
 
     try {
+        
         const response = await fetch("./dados/infantil.json")
         const data = await response.text()
         const dadus = JSON.parse(data)

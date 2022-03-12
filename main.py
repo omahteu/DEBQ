@@ -85,8 +85,11 @@ class Livia:
         for n, p, s in zip(nomes_revistas, precos_revistas, status):
             s1 = str(s).replace('<b>', '')
             s2 = s1.replace('</b>', '')
-            dd = {}
-            dd[n] = p, s2
+            dd = {
+                'nome': n,
+                'preco': p,
+                'status': s2
+            }
             dados.append(dd)
 
         Livia.registrar('adolescentes')
@@ -124,8 +127,11 @@ class Livia:
         for n, p, s in zip(nomes_revistas, precos_revistas, status):
             s1 = str(s).replace('<b>', '')
             s2 = s1.replace('</b>', '')
-            dd = {}
-            dd[n] = p, s2
+            dd = {
+                'nome': n,
+                'preco': p,
+                'status': s2
+            }
             dados.append(dd)
 
         Livia.registrar('jovens')
@@ -163,8 +169,11 @@ class Livia:
         for n, p, s in zip(nomes_revistas, precos_revistas, status):
             s1 = str(s).replace('<b>', '')
             s2 = s1.replace('</b>', '')
-            dd = {}
-            dd[n] = p, s2
+            dd = {
+                'nome': n,
+                'preco': p,
+                'status': s2
+            }
             dados.append(dd)
 
         Livia.registrar('adultos')

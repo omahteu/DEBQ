@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    getProdutos()
-    
+    getProdutosJovens()
+
 })
 
-async function getProdutos(){
+async function getProdutosJovens(){
 
     try {
         
