@@ -1,542 +1,227 @@
 [
     {
-        " EBF ": [
-            "20.00",
-            "Disponível"
-        ]
+        "nome": " EBF ",
+        "preco": "20.00",
+        "status": "Disponível"
     },
     {
-        " TRÊS LIÇÕES VALIOSAS": [
-            "10.90",
-            "Disponível"
-        ]
+        "nome": " TRÊS LIÇÕES VALIOSAS",
+        "preco": "10.90",
+        "status": "Disponível"
     },
     {
-        " CADERNO DE COLORIR": [
-            "10.00",
-            "Disponível"
-        ]
+        "nome": " CADERNO DE COLORIR",
+        "preco": "10.00",
+        "status": "Disponível"
     },
     {
-        " FERRAMENTAS CULTO INFANTIL": [
-            "31.00",
-            "Disponível"
-        ]
+        "nome": " FERRAMENTAS CULTO INFANTIL",
+        "preco": "31.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 03 A 04 ANOS - PROFESSOR - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 03 A 04 ANOS - PROFESSOR - MOD I",
+        "preco": "14.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 03 A 04 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 03 A 04 ANOS - PROFESSOR - MOD II",
+        "preco": "14.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 05 A 06 ANOS - PROFESSOR - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 05 A 06 ANOS - PROFESSOR - MOD I",
+        "preco": "14.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 05 A 06 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 05 A 06 ANOS - PROFESSOR - MOD II",
+        "preco": "14.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 07 A 08 ANOS - PROFESSOR - MOD I": [
-            "13.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 07 A 08 ANOS - PROFESSOR - MOD I",
+        "preco": "13.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 07 A 08 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 07 A 08 ANOS - PROFESSOR - MOD II",
+        "preco": "14.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 09 A 10 ANOS - PROFESSOR - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 09 A 10 ANOS - PROFESSOR - MOD I",
+        "preco": "14.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 09 A 10 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 09 A 10 ANOS - PROFESSOR - MOD II",
+        "preco": "14.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 11 A 12 ANOS - PROFESSOR - MOD I": [
-            "15.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 11 A 12 ANOS - PROFESSOR - MOD I",
+        "preco": "15.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - 11 A 12 ANOS - PROFESSOR - MOD II": [
-            "16.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - 11 A 12 ANOS - PROFESSOR - MOD II",
+        "preco": "16.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 03 A 04 ANOS - MOD I": [
-            "12.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 03 A 04 ANOS - MOD I",
+        "preco": "12.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 03 A 04 ANOS - MOD II": [
-            "12.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 03 A 04 ANOS - MOD II",
+        "preco": "12.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 05 A 06 ANOS - MOD I": [
-            "12.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 05 A 06 ANOS - MOD I",
+        "preco": "12.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 05 A 06 ANOS - MOD II": [
-            "12.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 05 A 06 ANOS - MOD II",
+        "preco": "12.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 07 A 08 ANOS - MOD I": [
-            "12.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 07 A 08 ANOS - MOD I",
+        "preco": "12.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 07 A 08 ANOS - MOD II": [
-            "12.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 07 A 08 ANOS - MOD II",
+        "preco": "12.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 09 A 10 ANOS - MOD I": [
-            "12.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 09 A 10 ANOS - MOD I",
+        "preco": "12.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 09 A 10 ANOS - MOD II": [
-            "12.00",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 09 A 10 ANOS - MOD II",
+        "preco": "12.00",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 11 A 12 ANOS - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 11 A 12 ANOS - MOD I",
+        "preco": "14.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ALUNO 11 A 12 ANOS - MOD II": [
-            "14.00",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ALUNO 11 A 12 ANOS - MOD II",
+        "preco": "14.00",
+        "status": "Indisponível"
     },
     {
-        " GUARDIõES DA PALAVRA - AZUL 3 A 5 ANOS ": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIõES DA PALAVRA - AZUL 3 A 5 ANOS ",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIõES DA PALAVRA - AZUL 6 A 8 ANOS  ": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIõES DA PALAVRA - AZUL 6 A 8 ANOS  ",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - AZUL 9 A 12 ANOS": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - AZUL 9 A 12 ANOS",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ROXA 3 A 5 ANOS": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ROXA 3 A 5 ANOS",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA - ROXA 9 A 12 ANOS": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA - ROXA 9 A 12 ANOS",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA AMARELO 3 A 5": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA AMARELO 3 A 5",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA AMARELO 6 A 8": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA AMARELO 6 A 8",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DA PALAVRA AMARELO 9 A 12": [
-            "13.30",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DA PALAVRA AMARELO 9 A 12",
+        "preco": "13.30",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DO PODER PARTE 1 - 00 A 02 ANOS": [
-            "10.50",
-            "Disponível"
-        ]
+        "nome": " GUARDIÕES DO PODER PARTE 1 - 00 A 02 ANOS",
+        "preco": "10.50",
+        "status": "Disponível"
     },
     {
-        " GUARDIÕES DO PODER PARTE 2 - 00 A 02 ANOS": [
-            "10.50",
-            "Indisponível"
-        ]
+        "nome": " GUARDIÕES DO PODER PARTE 2 - 00 A 02 ANOS",
+        "preco": "10.50",
+        "status": "Indisponível"
     },
     {
-        " LIÇÕES BÍBLICAS - DAVI ": [
-            "10.90",
-            "Disponível"
-        ]
+        "nome": " LIÇÕES BÍBLICAS - DAVI ",
+        "preco": "10.90",
+        "status": "Disponível"
     },
     {
-        " LIÇÕES BÍBLICAS - JONAS ": [
-            "10.90",
-            "Disponível"
-        ]
+        "nome": " LIÇÕES BÍBLICAS - JONAS ",
+        "preco": "10.90",
+        "status": "Disponível"
     },
     {
-        " LIÇÕES BÍBLICAS - PAULO ": [
-            "10.90",
-            "Disponível"
-        ]
+        "nome": " LIÇÕES BÍBLICAS - PAULO ",
+        "preco": "10.90",
+        "status": "Disponível"
     },
     {
-        " LIÇÕES BÍBLICAS -BARNABÉ ": [
-            "10.90",
-            "Disponível"
-        ]
+        "nome": " LIÇÕES BÍBLICAS -BARNABÉ ",
+        "preco": "10.90",
+        "status": "Disponível"
     },
     {
-        " OS 10 MANDAMENTO - 03 A 05 ANOS,  ALUNOS": [
-            "9.00",
-            "Disponível"
-        ]
+        "nome": " OS 10 MANDAMENTO - 03 A 05 ANOS,  ALUNOS",
+        "preco": "9.00",
+        "status": "Disponível"
     },
     {
-        " OS 10 MANDAMENTO - 03 A 05 ANOS,  PROF": [
-            "10.00",
-            "Disponível"
-        ]
+        "nome": " OS 10 MANDAMENTO - 03 A 05 ANOS,  PROF",
+        "preco": "10.00",
+        "status": "Disponível"
     },
     {
-        " OS 10 MANDAMENTO - 06 A 08 ANOS,  ALUNOS": [
-            "9.00",
-            "Disponível"
-        ]
+        "nome": " OS 10 MANDAMENTO - 06 A 08 ANOS,  ALUNOS",
+        "preco": "9.00",
+        "status": "Disponível"
     },
     {
-        " OS 10 MANDAMENTO - 06 A 08 ANOS,  PROF": [
-            "10.00",
-            "Disponível"
-        ]
+        "nome": " OS 10 MANDAMENTO - 06 A 08 ANOS,  PROF",
+        "preco": "10.00",
+        "status": "Disponível"
     },
     {
-        " OS 10 MANDAMENTO - 09 A 12 ANOS,  ALUNOS": [
-            "9.00",
-            "Disponível"
-        ]
+        "nome": " OS 10 MANDAMENTO - 09 A 12 ANOS,  ALUNOS",
+        "preco": "9.00",
+        "status": "Disponível"
     },
     {
-        " OS 10 MANDAMENTO - 09 A 12 ANOS,  PROF": [
-            "10.00",
-            "Disponível"
-        ]
+        "nome": " OS 10 MANDAMENTO - 09 A 12 ANOS,  PROF",
+        "preco": "10.00",
+        "status": "Disponível"
     },
     {
-        " REVISTA DAS OLIMPIADAS": [
-            "6.00",
-            "Disponível"
-        ]
-    },
-    {
-        " EBF ": [
-            "20.00",
-            "Disponível"
-        ]
-    },
-    {
-        " TRÊS LIÇÕES VALIOSAS": [
-            "10.90",
-            "Disponível"
-        ]
-    },
-    {
-        " CADERNO DE COLORIR": [
-            "10.00",
-            "Disponível"
-        ]
-    },
-    {
-        " FERRAMENTAS CULTO INFANTIL": [
-            "31.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 03 A 04 ANOS - PROFESSOR - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 03 A 04 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 05 A 06 ANOS - PROFESSOR - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 05 A 06 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 07 A 08 ANOS - PROFESSOR - MOD I": [
-            "13.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 07 A 08 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 09 A 10 ANOS - PROFESSOR - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 09 A 10 ANOS - PROFESSOR - MOD II": [
-            "14.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 11 A 12 ANOS - PROFESSOR - MOD I": [
-            "15.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - 11 A 12 ANOS - PROFESSOR - MOD II": [
-            "16.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 03 A 04 ANOS - MOD I": [
-            "12.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 03 A 04 ANOS - MOD II": [
-            "12.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 05 A 06 ANOS - MOD I": [
-            "12.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 05 A 06 ANOS - MOD II": [
-            "12.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 07 A 08 ANOS - MOD I": [
-            "12.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 07 A 08 ANOS - MOD II": [
-            "12.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 09 A 10 ANOS - MOD I": [
-            "12.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 09 A 10 ANOS - MOD II": [
-            "12.00",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 11 A 12 ANOS - MOD I": [
-            "14.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ALUNO 11 A 12 ANOS - MOD II": [
-            "14.00",
-            "Indisponível"
-        ]
-    },
-    {
-        " GUARDIõES DA PALAVRA - AZUL 3 A 5 ANOS ": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIõES DA PALAVRA - AZUL 6 A 8 ANOS  ": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - AZUL 9 A 12 ANOS": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ROXA 3 A 5 ANOS": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA - ROXA 9 A 12 ANOS": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA AMARELO 3 A 5": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA AMARELO 6 A 8": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DA PALAVRA AMARELO 9 A 12": [
-            "13.30",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DO PODER PARTE 1 - 00 A 02 ANOS": [
-            "10.50",
-            "Disponível"
-        ]
-    },
-    {
-        " GUARDIÕES DO PODER PARTE 2 - 00 A 02 ANOS": [
-            "10.50",
-            "Indisponível"
-        ]
-    },
-    {
-        " LIÇÕES BÍBLICAS - DAVI ": [
-            "10.90",
-            "Disponível"
-        ]
-    },
-    {
-        " LIÇÕES BÍBLICAS - JONAS ": [
-            "10.90",
-            "Disponível"
-        ]
-    },
-    {
-        " LIÇÕES BÍBLICAS - PAULO ": [
-            "10.90",
-            "Disponível"
-        ]
-    },
-    {
-        " LIÇÕES BÍBLICAS -BARNABÉ ": [
-            "10.90",
-            "Disponível"
-        ]
-    },
-    {
-        " OS 10 MANDAMENTO - 03 A 05 ANOS,  ALUNOS": [
-            "9.00",
-            "Disponível"
-        ]
-    },
-    {
-        " OS 10 MANDAMENTO - 03 A 05 ANOS,  PROF": [
-            "10.00",
-            "Disponível"
-        ]
-    },
-    {
-        " OS 10 MANDAMENTO - 06 A 08 ANOS,  ALUNOS": [
-            "9.00",
-            "Disponível"
-        ]
-    },
-    {
-        " OS 10 MANDAMENTO - 06 A 08 ANOS,  PROF": [
-            "10.00",
-            "Disponível"
-        ]
-    },
-    {
-        " OS 10 MANDAMENTO - 09 A 12 ANOS,  ALUNOS": [
-            "9.00",
-            "Disponível"
-        ]
-    },
-    {
-        " OS 10 MANDAMENTO - 09 A 12 ANOS,  PROF": [
-            "10.00",
-            "Disponível"
-        ]
-    },
-    {
-        " REVISTA DAS OLIMPIADAS": [
-            "6.00",
-            "Disponível"
-        ]
+        "nome": " REVISTA DAS OLIMPIADAS",
+        "preco": "6.00",
+        "status": "Disponível"
     }
 ]

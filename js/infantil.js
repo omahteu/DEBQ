@@ -1,36 +1,42 @@
 $(document).ready(function(){
-    fetch("/dados/infantil.json")
-    .then(response => {
-       return response.json();
-    })
-    .then(function(myBlob) {
-        var stringified = JSON.stringify(myBlob);
-        var parsedObj = JSON.parse(stringified);
+
+    getProdutos()
+})
+
+async function getProdutos(){
+
+    console.log('iniciando...')
+
+    try {
+        const response = await fetch("../dados/infantil.json")
+        const data = await response.json()
+        
+        console.log(data)
+        // var stringified = JSON.stringify(data);
+        // var parsedObj = JSON.parse(stringified);
     
-        var objectURL = parsedObj;
+        // var objectURL = parsedObj;
 
         var tabInfantil = document.getElementById('infantil')
         tabInfantil.innerHTML = ''
-        
-        for(var i = 0; i < objectURL.length; i++){
-            //console.log(objectURL[i])
 
-            Object.keys(objectURL[i]).forEach(function(item){
-                // console.log(item + " X " + objectURL[i][item]);
-                // console.log(objectURL[i][item][1]);
-                var nomes = item
-                var preco = objectURL[i][item][0]
-                var status = objectURL[i][item][1]
+        data.forEach(elemento => {
 
+            tabInfantil.innerHTML += '<tr>'+
+                                '<td>' + elemento.nome + '</td>'+
+                                '<td>' + 'R$ ' + elemento.preco + '</td>'+
+                                '<td>' + elemento.status + '</td>'+
+                            '</tr>'
+        })
 
-                tabInfantil.innerHTML += '<tr>'+
-                                    '<td>' + nomes + '</td>'+
-                                    '<td>' + 'R$ ' + preco + '</td>'+
-                                    '<td>' + status + '</td>'+
-                                '</tr>'
-                
-               });
+    } catch (error) {
+        console.error(error)
+    }
+}
 
-        }
+function show(dados){
+
+    dados.forEach(function(item){
+        console.log(item[0])
     })
-})
+}
