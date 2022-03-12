@@ -5,12 +5,9 @@ $(document).ready(function(){
 
 async function getProdutos(){
 
-    console.log('iniciando...')
-
     try {
         const response = await fetch("./dados/infantil.json")
         const data = await response.text()
-
         const dadus = JSON.parse(data)
 
         var tabInfantil = document.getElementById('infantil')

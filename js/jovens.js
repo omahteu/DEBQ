@@ -1,33 +1,30 @@
 $(document).ready(function(){
-    fetch("../dados/jovens.json")
-    .then(response => {
-       return response.json();
-    })
-    .then(function(myBlob) {
-        var objectURL = myBlob;
 
-        var tabInfantil = document.getElementById('jovens')
-        tabInfantil.innerHTML = ''
-        
-        for(var i = 0; i < objectURL.length; i++){
-            //console.log(objectURL[i])
-
-            Object.keys(objectURL[i]).forEach(function(item){
-                // console.log(item + " X " + objectURL[i][item]);
-                // console.log(objectURL[i][item][1]);
-                var nomes = item
-                var preco = objectURL[i][item][0]
-                var status = objectURL[i][item][1]
-
-
-                tabInfantil.innerHTML += '<tr>'+
-                                    '<td>' + nomes + '</td>'+
-                                    '<td>' + 'R$ ' + preco + '</td>'+
-                                    '<td>' + status + '</td>'+
-                                '</tr>'
-                
-               });
-
-        }
-    })
+    getProdutos()
+    
 })
+
+async function getProdutos(){
+
+    try {
+        
+        const response = await fetch("./dados/jovens.json")
+        const data = await response.text()
+        const dados = JSON.parse(data)
+
+        var tabJovens = document.getElementById('jovens')
+        tabJovens.innerHTML = ''
+
+        dados.forEach(elemento => {
+            
+            tabJovens.innerHTML += '<tr>'+
+                                        '<td>' + elemento.nome + '</td>'+
+                                        '<td>' + 'R$ ' + elemento.preco + '</td>'+
+                                        '<td>' + elemento.status + '</td>'+
+                                    '</tr>'
+        });
+
+    } catch (error) {
+        console.error(error)
+    }
+}
