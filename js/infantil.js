@@ -11,6 +11,8 @@ async function getProdutos(){
         const response = await fetch("./dados/infantil.json")
         const data = await response.text()
 
+        console.log(data)
+
         var tabInfantil = document.getElementById('infantil')
         tabInfantil.innerHTML = ''
 
