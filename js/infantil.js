@@ -27,10 +27,3 @@ async function getProdutos(){
         console.error(error)
     }
 }
-
-function show(dados){
-
-    dados.forEach(function(item){
-        console.log(item[0])
-    })
-}
