@@ -11,12 +11,12 @@ async function getProdutos(){
         const response = await fetch("./dados/infantil.json")
         const data = await response.text()
 
-        console.log(data)
+        const dadus = JSON.parse(data)
 
         var tabInfantil = document.getElementById('infantil')
         tabInfantil.innerHTML = ''
 
-        data.forEach(elemento => {
+        dadus.forEach(elemento => {
 
             tabInfantil.innerHTML += '<tr>'+
                                         '<td>' + elemento.nome + '</td>'+
